@@ -1,0 +1,16 @@
+{
+  "name": "project-template",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "typescript": "^4.0.0",
+    "ts-node": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.0"
+  }
+}
