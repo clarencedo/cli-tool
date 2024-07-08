@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 import { Command } from "commander";
 import { createNewProject } from "./commands/new";
 import { createHandler } from "./commands/handler";
